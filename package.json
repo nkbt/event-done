@@ -1,8 +1,7 @@
 {
 	"name": "event-done",
 	"description": "Extension of EventEmitter which allows to pass callback that will be invoked when all listeners completed",
-	"version": "0.0.0",
-	"private": true,
+	"version": "0.0.1",
 	"author": {
 		"name": "Nik Butenko",
 		"email": "nik@butenko.me"
@@ -21,8 +20,7 @@
 		"url": "git@github.com:nkbt/event-done.git"
 	},
 	"dependencies": {
-		"underscore": "^1.6.0",
-		"uuid": "^1.4.1"
+		"underscore": "^1.6.0"
 	},
 	"devDependencies": {
 		"chai": "~1.9.0",

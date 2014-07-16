@@ -5,7 +5,6 @@ var chai = require('chai');
 chai.use(require('sinon-chai'));
 
 var sinon = require('sinon');
-var uuid = require('uuid');
 
 var EventDone = require('../lib').EventDone;
 var EventDoneTimeoutError = require('../lib').EventDoneTimeoutError;
@@ -144,6 +143,12 @@ describe('EventDone', function () {
 			done();
 		}, 1);
 
+	});
+
+
+	it('Should have UUID property', function () {
+		var event = new EventDone('Unique Id');
+		expect(event.uuid).to.be.equal('Unique Id');
 	});
 
 });
