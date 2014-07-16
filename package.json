@@ -1,0 +1,39 @@
+{
+	"name": "event-done",
+	"description": "Extension of EventEmitter which allows to pass callback that will be invoked when all listeners completed",
+	"version": "0.0.0",
+	"private": true,
+	"author": {
+		"name": "Nik Butenko",
+		"email": "nik@butenko.me"
+	},
+	"contributors": [
+		{
+			"name": "Nik Butenko",
+			"email": "nik@butenko.me"
+		}
+	],
+	"scripts": {
+		"test": "grunt test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:nkbt/event-done.git"
+	},
+	"dependencies": {
+		"underscore": "^1.6.0",
+		"uuid": "^1.4.1"
+	},
+	"devDependencies": {
+		"chai": "~1.9.0",
+		"grunt": "~0.4.2",
+		"grunt-cli": "~0.1.13",
+		"grunt-contrib-jshint": "~0.7.2",
+		"grunt-contrib-watch": "~0.5.3",
+		"grunt-simple-mocha": "~0.4.0",
+		"jscoverage": "^0.5.5",
+		"mocha": "~1.18.0",
+		"sinon": "~1.8.2",
+		"sinon-chai": "~2.5.0"
+	}
+}
