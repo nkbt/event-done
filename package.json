@@ -23,15 +23,15 @@
 		"underscore": "^1.6.0"
 	},
 	"devDependencies": {
-		"chai": "~1.9.0",
-		"grunt": "~0.4.2",
-		"grunt-cli": "~0.1.13",
-		"grunt-contrib-jshint": "~0.7.2",
-		"grunt-contrib-watch": "~0.5.3",
+		"chai": "~3.5.0",
+		"grunt": "~1.0.1",
+		"grunt-cli": "~1.2.0",
+		"grunt-contrib-jshint": "~1.0.0",
+		"grunt-contrib-watch": "~1.0.0",
 		"grunt-simple-mocha": "~0.4.0",
-		"jscoverage": "^0.5.5",
-		"mocha": "~1.18.0",
-		"sinon": "~1.8.2",
-		"sinon-chai": "~2.5.0"
+		"jscoverage": "^0.6.0",
+		"mocha": "~3.1.2",
+		"sinon": "~1.17.6",
+		"sinon-chai": "~2.8.0"
 	}
 }
